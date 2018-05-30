@@ -6,3 +6,12 @@
 - execute a cell so autocomplete works in other cells
 - shift + tab with cursor on a command shows signature of the command
 
+### Managing multiple cells
+- Cells -> runall
+- Cells -> runallbelow
+
+## Shell commands
+- called magic commands starts with a bang or exclamation 
+- > !pwd
+- > !dir
+- > !ls - l
