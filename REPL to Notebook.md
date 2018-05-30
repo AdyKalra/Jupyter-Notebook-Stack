@@ -15,3 +15,8 @@
 - > !pwd
 - > !dir
 - > !ls - l
+- access the In [] in a command 
+- > In [11]
+- > Out [11]
+- _ is the value of the most recent ouput! 
+- 
