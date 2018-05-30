@@ -34,3 +34,26 @@
 - large install fr everything 
 - Docker for preinstalled notebooks
 - Azure notebooks 
+
+## After installation 
+- open cmd
+- >jupyter notebook
+- opens jupyter on licalhost 8888
+- with default web browser at localhost8888/tree
+- ctrl c twice to stop the notebook
+- >jupyter notebook --port=8889 --ip=127.0.0.1 
+- >jupyter notebook --notebook_dir=notebook_path 
+
+## docker
+- download docker installer and run it
+- >docker pull jupyter/datascience
+- downloads the image fr DS
+- >docker run --it --rm jupyter/datascience-notebook
+- need to connect the host os to the docker server thats running 
+- >docker run --it --rm -p 8888:8888 jupyter/datascience-notebook
+- map a volume in the container to the host os
+- >docker run --it --rm -p 8888:8888 -v C:\ady\notebooks:/home/dockady jupyter/datascience-notebook
+
+
+
+
