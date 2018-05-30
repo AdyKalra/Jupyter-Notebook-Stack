@@ -53,7 +53,13 @@
 - >docker run --it --rm -p 8888:8888 jupyter/datascience-notebook
 - map a volume in the container to the host os
 - >docker run --it --rm -p 8888:8888 -v C:\ady\notebooks:/home/dockady jupyter/datascience-notebook
+- change permissions for docker settings in the toolsbar on desktop 
+- shared drives and choose C:
 
-
-
-
+# Azure notebooks
+- Navigate to notebooks.azure.com and signin
+- In azure notebooks are stored in libraries
+- create a new library with a unique id
+- in the new lib create a new notebook
+- choose file type as python 3.x
+- timeout if you dont use them fr a while
