@@ -19,4 +19,12 @@
 - > In [11]
 - > Out [11]
 - _ is the value of the most recent ouput! 
-- 
+
+## Styling cell output
+- Using Pandas for data analysis
+- > import pandas as pd
+- > df_weather = pd.read_csv ('weather.csv')
+- > df_weather (for displaying formatted o/p)
+- > df_weather.style.highlight_max () ( highlight max vals)
+- choose subsets , colors etc
+
