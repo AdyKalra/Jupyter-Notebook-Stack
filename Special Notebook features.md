@@ -13,8 +13,18 @@
 - Shift M merge cells
 - Shift L toggle line numbers 
 
-### Edit Mode
-- 
 ## Inline help
+- append a ? at end of command
+- docstring literal at window 
+- 
 ## Magic Commands
+- prefixed with %
+- inspired by IPython 
+- %lsmagic 
+- %history 
+- %load %run
+- %alias
+- %reset
+
+
 ## Security
